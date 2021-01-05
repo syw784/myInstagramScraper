@@ -291,8 +291,8 @@ def load_param():
     param["dl_from_end_cursor"] = []#webpage, end_cursor
     param["query_format"] = 'https://www.instagram.com/graphql/query/?query_hash=44efc15d3c13342d02df0b5a9fa3d33f&variables=%7B%22id%22%3A%22{ins_id}%22%2C%22first%22%3A12%2C%22after%22%3A%22{end_cursor}%22%7D'
     param['param_loc'] = 'instagram.json'
-    param['usr_name'] = 'dfsf33fa'
-    param['pswd'] = 'E5h4q6Tb4JDW8ge'
+    param['usr_name'] = 'whatwhat'
+    param['pswd'] = 'inthebutt'
     param['logged_in'] = False
     param['running'] = False
 
