@@ -1,0 +1,16 @@
+from PyQt5 import QtWidgets, uic
+import sys
+
+class Query_URL_Ui(QtWidgets.QDialog):
+    def __init__(self):
+        super(Query_URL_Ui, self).__init__()
+        uic.loadUi('text_diag.ui', self)
+#        self. = self.findChild(QtWidgets., '') # Find the button
+        self.buttons = self.findChild(QtWidgets.QDialogButtonBox, 'buttonBox') # Find the button
+        self.query_text = self.findChild(QtWidgets.QLineEdit, 'query_text') # Find the button
+self.buttons.accetpted.connect(click_ok())
+self.buttons.rejected.connect(click_cancel())
+        self.show()
+
+    def click_ok():
+    def click_cancel():
